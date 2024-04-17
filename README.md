@@ -1,4 +1,4 @@
-00 Data Science Folder Template
+00 Data Science Project Struture
 ==============================
 
 Desc
