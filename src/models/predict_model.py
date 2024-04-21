@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Define the directory where the models are saved
-model_dir = "/Users/naufal/Documents/data_science_project/credit-risk-classifier/src/models"
+model_dir = "../../credit-risk-classifier/src/models"
 
 # Load trained models
 models = {}

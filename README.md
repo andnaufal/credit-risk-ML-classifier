@@ -23,7 +23,7 @@ To achieve this objective, it was further broken down into the following 3 techn
 From the exploratory data analysis, we found out few insight about credit risk patterns:
 
 * There a correlation between loan amount and credit risk. Borrowers with higher credit risk, as indicated by lower credit grades, tend to borrow larger amounts of loans.
-* There's orrelation between Interest rate and credit risk. Borrowers with higher credit risk, as indicated by lower credit grades, tend to borrow with higher interest rate, while borrowers with lower credit risk, indicated by higher credit grades, tend to borrow with smaller interest rate.
+* There's correlation between Interest rate and credit risk. Borrowers with higher credit risk, as indicated by lower credit grades, tend to borrow with higher interest rate, while borrowers with lower credit risk, indicated by higher credit grades, tend to borrow with smaller interest rate.
 * Individuals with longer employment lengths tend to demonstrate greater financial stability and reliability, leading to lower credit risk. On the other hand, those with shorter employment lengths might be perceived as less stable, potentially resulting in higher credit risk.
 *The higher individual using their available credit, the lower their credit risk grade are. And the lower individual utilized their credit, the higher their grade are.
 
@@ -79,11 +79,6 @@ The best performing model is Decision Tree Classifier with the following paramet
 | Macro Avg   | 0.96      | 0.97   | 0.96     | 94213   |
 | Weighted Avg| 0.97      | 0.97   | 0.97     | 94213   |
 
- 
-
-1. Feature Importance: The selected model exhibits a well-balanced feature importance distribution. The top 3 features contributing to the model's predictions are X, Y, and Z.
-2. Intuition of Feature Importance: The directions of SHAP values align with our expectations. Anomalies are expected to have a larger rate of X and Y and a smaller number of Z, which is consistent with the feature importance findings.
-3. Effectiveness of Feature Engineering: The engineered features also demonstrate significance, ranking in the 4th, 5th, and 7th places in terms of importance. This suggests that the feature engineering effort was successful in enhancing the model's performance.
 
 The model achieves high precision, recall, and F1-score across all classes, indicating its effectiveness in classifying each category. The overall accuracy of the model is 0.97, demonstrating strong predictive performance.
 
