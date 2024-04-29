@@ -1,6 +1,6 @@
 # Credit Risk ML Classifier: Data Science Project
 
-![credit-counting image](docs/credit-image.png)
+![credit-counting image](docs/credit-image.jpg)
 
 ## Overview
 
